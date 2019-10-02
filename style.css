@@ -1,0 +1,80 @@
+body{
+	text-align: center;
+	background-image: url("https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=881&q=80");
+	background-size: cover;
+	font-family: tw cen mT;
+}
+
+a{
+	text-align: center;
+	font-size: 48px;
+}
+.linkedin{
+	color: #0073B0;
+}
+.instagram{
+	color: #C5286A;
+}
+a:hover{
+	font-size: 60px;
+}
+
+h2{
+	font-weight: 2000;
+}
+
+img{
+	width: 50%;
+}
+
+.container{ 
+	width: 50%;
+	margin: 20px auto;
+	border-radius: 5px;
+	padding: 40px 20px;
+	background-color: #FAFAFA;
+	}
+/*essayer de jouer sur la transparence du background blanc*/
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540 px) {
+	.container { 
+		width: 300px; 
+	}
+}
+.card{
+	border: solid #91ADC2;
+	margin: 10px auto;
+	box-shadow: 5px 5px 0px 0px #467086;
+}
+
+.card:hover{
+	width: 70%;
+}
+
+.header{
+	padding: 10px;
+	border: solid white;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.pro img{
+	width: 5%;
+	vertical-align: top;
+}
+
